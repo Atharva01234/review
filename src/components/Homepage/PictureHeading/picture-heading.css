@@ -1,0 +1,38 @@
+.picture-heading-root {
+  position: relative;
+  padding: 200px 0;
+}
+
+.picture-heading-root::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../../assets/home-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+}
+
+.picture-heading-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .picture-heading-root {
+    padding: 100px 0;
+  }
+
+  .picture-heading-text {
+    font-size: 24px;
+  }
+}

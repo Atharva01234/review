@@ -1,0 +1,25 @@
+.margin-horizontal-homepage {
+  margin: 0 120px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+.margin-horizontal-homepage {
+    margin: 0 16px !important;
+  }
+}
+
+.homepage-middle-section {
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1024px) {
+  .homepage-middle-section {
+    flex-direction: column;
+  }
+
+  .homepage-search-root-wrapper {
+    margin: 10px 10px;
+  }
+}

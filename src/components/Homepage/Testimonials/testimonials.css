@@ -1,0 +1,88 @@
+.testimonials-root {
+  margin-bottom: 16px;
+}
+
+.testimonials-root h3 {
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #04525F;
+  text-align: center;
+}
+
+.testimonials-root button {
+  background-color: black !important;
+}
+
+.testimonials-container {
+  margin-top: 8px;
+  display: flex;
+  gap: 40px;
+  min-height: 240px;
+  max-height: 240px;
+  overflow: hidden;
+}
+
+.testimonial {
+  flex: 0.5;
+  margin: 40px 40px
+}
+
+.testimonial i {
+  font-size: 18px;
+}
+
+.testimonial .overview {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+
+.testimonial-text {
+  position: relative;
+  font-size: 18px;
+}
+
+.quote-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.quote-left-icon {
+  position: absolute;
+  top: -40px;
+  left: -40px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .testimonials-root h3 {
+    font-size: 20px;
+  }
+
+  .testimonials-container {
+    flex-direction: column;
+    gap: 20px;
+    min-height: 240px;
+  }
+
+  .testimonial {
+    flex: 1;
+    margin: 20px 10px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+  }
+
+  .quote-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .quote-left-icon {
+    top: -20px;
+    left: -20px;
+  }
+}
